@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form input {
+  width: 340px;
+  height: 30px;
+  top: 441px;
+  left: 870px;
+}
+
+.form label {
+  top: 420px;
+  left: 870px;
+  width: 58px;
+  height: 14px;
+  margin-top: 25px;
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0px;
+  color: #888888;
+}
+
+.form button {
+  width: 340px;
+  height: 40px;
+  text-align: center;
+  background-color: #2c6e49;
+  color: #fefee3;
+  margin-top: 10px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+
+.radio input {
+  width: 12px;
+}
+
+.form button:hover {
+  background-color: #90a955;
+  scale: 1.05;
+  border: none;
+}
